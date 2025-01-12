@@ -2,13 +2,12 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import router from './api/routes/SpecialOffers.js';
-import MainMenu from './api/routes/RestaurantMenu.js';
-import AuthRoute from "./api/routes/authRoutes.js"
-import AdminRoute from './api/routes/adminRoutes.js'
+import router from './routes/SpecialOffers.js';
+import MainMenu from './routes/RestaurantMenu.js';
+import AuthRoute from "./routes/authRoutes.js"
+import AdminRoute from './routes/adminRoutes.js'
 import axios from "axios"
-
-axios.defaults.baseURL = 'http://localhost:5000';
+axios.defaults.baseURL = process.env.API_BASE_URL || 'http://localhost:5000';
 
 dotenv.config();
 

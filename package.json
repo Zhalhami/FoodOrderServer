@@ -22,5 +22,14 @@
     "socket.io": "^4.8.1",
     "uuid": "^11.0.3"
   },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zhalhami/FoodOrderServer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zhalhami/FoodOrderServer/issues"
+  },
+  "homepage": "https://github.com/Zhalhami/FoodOrderServer#readme",
   "description": ""
 }
