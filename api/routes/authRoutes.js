@@ -1,6 +1,5 @@
 // routes/authRoutes.js
 import express from 'express';
-import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';  // We will use this to create JWT tokens
 import User from '../models/users.js';  // Assuming User model is already created
 
